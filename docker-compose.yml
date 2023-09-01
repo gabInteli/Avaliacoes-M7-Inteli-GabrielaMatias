@@ -1,0 +1,20 @@
+version: '3'
+services:
+  interface:
+    image: gabinteli/frontend-p1:latest
+    build:
+      context: /frontend
+    ports:
+      - "3000:3000"
+
+
+  backend:
+    image: gabinteli/backend-p1:latest
+    build:
+      context: /backend
+    container_name: backend-p1
+    ports:
+      - '8000:8000'
+    depends_on:
+      - interface
+    restart: always
