@@ -61,4 +61,4 @@ https://hub.docker.com/repository/docker/gabinteli/backend-p1/general
 
 Para acionar todos os serviços basta rodar um docker compose, e a seguir temos o passo a passo da criação de um novo usuário: 
 
- ![Imagem 1](imagem)
+ ![Imagem 1](https://github.com/gabInteli/Avaliacoes-M7-Inteli-GabrielaMatias/blob/main/media/img1.png)
